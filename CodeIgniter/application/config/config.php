@@ -23,7 +23,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] ='http://obiwan2.univ-brest.fr/licence/lic113/V2/CodeIgniter/';
+// Version du serveur obiwan2.univ-brest.fr
+//$config['base_url'] ='http://obiwan2.univ-brest.fr/licence/lic113/V2/CodeIgniter/';
+
+// Version pour WampServer
+$config['base_url'] ='http://localhost/eTalents/CodeIgniter/';
+
 
 /*
 |--------------------------------------------------------------------------
